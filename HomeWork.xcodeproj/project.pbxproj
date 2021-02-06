@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3456F72101E27AC4A869801F /* Pods_HomeWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D17CD8F237AAA573422A4E9 /* Pods_HomeWork.framework */; };
 		3F939DBA25CE5A0C002BBB3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F939DB925CE5A0C002BBB3A /* AppDelegate.swift */; };
 		3F939DBC25CE5A0C002BBB3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F939DBB25CE5A0C002BBB3A /* SceneDelegate.swift */; };
-		3F939DBE25CE5A0C002BBB3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F939DBD25CE5A0C002BBB3A /* ViewController.swift */; };
-		3F939DC125CE5A0C002BBB3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F939DBF25CE5A0C002BBB3A /* Main.storyboard */; };
 		3F939DC325CE5A10002BBB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F939DC225CE5A10002BBB3A /* Assets.xcassets */; };
 		3F939DC625CE5A10002BBB3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F939DC425CE5A10002BBB3A /* LaunchScreen.storyboard */; };
+		3F939DCF25CE5ACD002BBB3A /* BeerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F939DCE25CE5ACD002BBB3A /* BeerListViewController.swift */; };
+		3F939DD325CE5AD9002BBB3A /* BeerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F939DD225CE5AD9002BBB3A /* BeerDetailViewController.swift */; };
+		3F939DDB25CE5BA7002BBB3A /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F939DDA25CE5BA7002BBB3A /* Beer.swift */; };
+		3F939DDE25CE5CC9002BBB3A /* BeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F939DDD25CE5CC9002BBB3A /* BeerService.swift */; };
+		3F9FA4EA25CE5F400013E925 /* BeerListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FA4E925CE5F400013E925 /* BeerListTableViewCell.swift */; };
+		3F9FA4EE25CE642D0013E925 /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FA4ED25CE642D0013E925 /* ReuseIdentifierProtocol.swift */; };
+		3F9FA4F325CE6F8D0013E925 /* BeerDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FA4F225CE6F8D0013E925 /* BeerDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F939DB625CE5A0C002BBB3A /* HomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F939DB925CE5A0C002BBB3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F939DBB25CE5A0C002BBB3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F939DBD25CE5A0C002BBB3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F939DC025CE5A0C002BBB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F939DC225CE5A10002BBB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F939DC525CE5A10002BBB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F939DC725CE5A10002BBB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F939DCE25CE5ACD002BBB3A /* BeerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListViewController.swift; sourceTree = "<group>"; };
+		3F939DD225CE5AD9002BBB3A /* BeerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailViewController.swift; sourceTree = "<group>"; };
+		3F939DDA25CE5BA7002BBB3A /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		3F939DDD25CE5CC9002BBB3A /* BeerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerService.swift; sourceTree = "<group>"; };
+		3F9FA4E925CE5F400013E925 /* BeerListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListTableViewCell.swift; sourceTree = "<group>"; };
+		3F9FA4ED25CE642D0013E925 /* ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
+		3F9FA4F225CE6F8D0013E925 /* BeerDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailTableViewCell.swift; sourceTree = "<group>"; };
+		5293D9E8877A4B825E11D82D /* Pods-HomeWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork.release.xcconfig"; path = "Target Support Files/Pods-HomeWork/Pods-HomeWork.release.xcconfig"; sourceTree = "<group>"; };
+		5D17CD8F237AAA573422A4E9 /* Pods_HomeWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		600DD0498720F30C001754F8 /* Pods-HomeWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork.debug.xcconfig"; path = "Target Support Files/Pods-HomeWork/Pods-HomeWork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3456F72101E27AC4A869801F /* Pods_HomeWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				3F939DB825CE5A0C002BBB3A /* HomeWork */,
 				3F939DB725CE5A0C002BBB3A /* Products */,
+				BBC9CC654DD2CC42946909A9 /* Pods */,
+				EF66B00E21F1047CC0296695 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,53 @@
 		3F939DB825CE5A0C002BBB3A /* HomeWork */ = {
 			isa = PBXGroup;
 			children = (
+				3F939DE025CE5D77002BBB3A /* BeerList */,
+				3F939DE125CE5D80002BBB3A /* BeerDetail */,
 				3F939DB925CE5A0C002BBB3A /* AppDelegate.swift */,
 				3F939DBB25CE5A0C002BBB3A /* SceneDelegate.swift */,
-				3F939DBD25CE5A0C002BBB3A /* ViewController.swift */,
-				3F939DBF25CE5A0C002BBB3A /* Main.storyboard */,
 				3F939DC225CE5A10002BBB3A /* Assets.xcassets */,
 				3F939DC425CE5A10002BBB3A /* LaunchScreen.storyboard */,
 				3F939DC725CE5A10002BBB3A /* Info.plist */,
+				3F939DDA25CE5BA7002BBB3A /* Beer.swift */,
+				3F939DDD25CE5CC9002BBB3A /* BeerService.swift */,
+				3F9FA4ED25CE642D0013E925 /* ReuseIdentifierProtocol.swift */,
 			);
 			path = HomeWork;
+			sourceTree = "<group>";
+		};
+		3F939DE025CE5D77002BBB3A /* BeerList */ = {
+			isa = PBXGroup;
+			children = (
+				3F939DCE25CE5ACD002BBB3A /* BeerListViewController.swift */,
+				3F9FA4E925CE5F400013E925 /* BeerListTableViewCell.swift */,
+			);
+			path = BeerList;
+			sourceTree = "<group>";
+		};
+		3F939DE125CE5D80002BBB3A /* BeerDetail */ = {
+			isa = PBXGroup;
+			children = (
+				3F939DD225CE5AD9002BBB3A /* BeerDetailViewController.swift */,
+				3F9FA4F225CE6F8D0013E925 /* BeerDetailTableViewCell.swift */,
+			);
+			path = BeerDetail;
+			sourceTree = "<group>";
+		};
+		BBC9CC654DD2CC42946909A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				600DD0498720F30C001754F8 /* Pods-HomeWork.debug.xcconfig */,
+				5293D9E8877A4B825E11D82D /* Pods-HomeWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF66B00E21F1047CC0296695 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D17CD8F237AAA573422A4E9 /* Pods_HomeWork.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F939DCA25CE5A10002BBB3A /* Build configuration list for PBXNativeTarget "HomeWork" */;
 			buildPhases = (
+				A47F42901EBF4B1C13ED15A5 /* [CP] Check Pods Manifest.lock */,
 				3F939DB225CE5A0C002BBB3A /* Sources */,
 				3F939DB325CE5A0C002BBB3A /* Frameworks */,
 				3F939DB425CE5A0C002BBB3A /* Resources */,
+				2AC3D22A6015A6014FD7BD2C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +183,73 @@
 			files = (
 				3F939DC625CE5A10002BBB3A /* LaunchScreen.storyboard in Resources */,
 				3F939DC325CE5A10002BBB3A /* Assets.xcassets in Resources */,
-				3F939DC125CE5A0C002BBB3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AC3D22A6015A6014FD7BD2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork/Pods-HomeWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork/Pods-HomeWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeWork/Pods-HomeWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A47F42901EBF4B1C13ED15A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F939DB225CE5A0C002BBB3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F939DBE25CE5A0C002BBB3A /* ViewController.swift in Sources */,
+				3F939DD325CE5AD9002BBB3A /* BeerDetailViewController.swift in Sources */,
+				3F9FA4EE25CE642D0013E925 /* ReuseIdentifierProtocol.swift in Sources */,
+				3F939DDB25CE5BA7002BBB3A /* Beer.swift in Sources */,
+				3F939DCF25CE5ACD002BBB3A /* BeerListViewController.swift in Sources */,
+				3F9FA4EA25CE5F400013E925 /* BeerListTableViewCell.swift in Sources */,
+				3F939DDE25CE5CC9002BBB3A /* BeerService.swift in Sources */,
 				3F939DBA25CE5A0C002BBB3A /* AppDelegate.swift in Sources */,
 				3F939DBC25CE5A0C002BBB3A /* SceneDelegate.swift in Sources */,
+				3F9FA4F325CE6F8D0013E925 /* BeerDetailTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F939DBF25CE5A0C002BBB3A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F939DC025CE5A0C002BBB3A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F939DC425CE5A10002BBB3A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +379,14 @@
 		};
 		3F939DCB25CE5A10002BBB3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 600DD0498720F30C001754F8 /* Pods-HomeWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L8448LQ6F8;
 				INFOPLIST_FILE = HomeWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +394,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeremy.HomeWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3F939DCC25CE5A10002BBB3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5293D9E8877A4B825E11D82D /* Pods-HomeWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L8448LQ6F8;
 				INFOPLIST_FILE = HomeWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeremy.HomeWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
